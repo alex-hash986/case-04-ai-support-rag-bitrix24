@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Кейс №4 · AI-поддержка в Bitrix24</title>
+<style>
+:root{color-scheme:light;--paper:#f7f7ef;--ink:#151f1d;--deep:#102c25;--green:#176048;--lime:#d6f58a;--line:#cbd7ce;--muted:#405752}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.55 system-ui,sans-serif}
+.wrap{width:min(1120px,92%);margin-inline:auto}
+header,footer{background:var(--deep);color:#f4fff6}
+nav{display:flex;gap:.6rem 1.45rem;flex-wrap:wrap;padding-block:1.25rem;border-bottom:1px solid #54736a}
+nav a:first-child{margin-right:auto;font-weight:750}
+a{color:inherit;text-underline-offset:.22em}
+:focus-visible{outline:3px solid #bb7429;outline-offset:4px}
+.hero{padding-block:clamp(3rem,8vw,7rem)}
+h1,h2,h3,p{margin:0 0 .65em}
+h1,h2{letter-spacing:-.045em;line-height:1.05}
+h1{font-size:clamp(2.7rem,8vw,6.7rem);max-width:15ch}
+h2{font-size:clamp(1.95rem,5vw,3.8rem)}
+h3{line-height:1.25}
+.hero p{color:#def0e4;max-width:58ch;font-size:clamp(1rem,2.5vw,1.35rem)}
+section{padding-block:clamp(2.5rem,6vw,5.5rem);border-bottom:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,225px),1fr));gap:1rem}
+.numbers{margin-top:2rem}
+.numbers div{border-top:1px solid #71988b;padding-top:.75rem}
+.numbers strong{display:block;font-size:clamp(1.85rem,5vw,3.15rem);color:var(--lime)}
+.card,details{border:1px solid var(--line);background:white;border-radius:12px;padding:1rem}
+.card p:last-child,details p:last-child{margin-bottom:0}
+.pipeline{list-style:none;margin:0;padding:0;display:grid;gap:.55rem}
+.pipeline li + li::before{content:"↓";display:block;color:var(--green);padding:0 0 .35rem 1rem}
+details[open]{border-color:var(--green);background:#eef5e9}
+summary{cursor:pointer;font-weight:750}
+details p{margin-top:.65rem}
+.muted{color:var(--muted);max-width:75ch}
+.scroll{overflow:auto;border:1px solid var(--line);border-radius:12px;background:white;margin:1.25rem 0}
+table{width:100%;border-collapse:collapse;text-align:left}
+th,td{padding:.65rem .9rem;border-bottom:1px solid var(--line)}
+thead{background:#e6efe5}
+tbody tr:last-child>*{border:0}
+.roi{display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:start}
+form{display:grid;gap:.8rem}
+label{display:grid;gap:.3rem;font-weight:650}
+input{width:100%;min-width:0;border:1px solid #81978e;border-radius:6px;padding:.45em;font:inherit}
+.results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+.results .card:last-child{grid-column:1/-1}
+output{display:block;font-variant-numeric:tabular-nums;font-size:clamp(1.25rem,3vw,1.85rem);font-weight:800;color:var(--green);overflow-wrap:anywhere}
+footer{padding-block:1.5rem}
+@media(max-width:720px){.roi{grid-template-columns:1fr}nav a:first-child{width:100%}}
+@media(max-width:365px){.results{grid-template-columns:1fr}th,td{padding:.5rem}}
+@media print{header,footer{background:white;color:var(--ink)}.hero p,.numbers strong{color:var(--ink)}nav{display:none}.hero,section{padding-block:1rem}.card,details,table{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header id="top">
+  <div class="wrap">
+    <nav aria-label="Разделы презентации">
+      <a href="#top">Кейс №4 · Bitrix24</a><a href="#value">Для бизнеса</a>
+      <a href="#flow">Пайплайн</a><a href="#verification">Проверка</a><a href="#roi">ROI</a>
+    </nav>
+    <div class="hero">
+      <h1>AI-поддержка в Bitrix24</h1>
+      <p>Типовые вопросы закрываются по базе знаний. Оператор получает сложные обращения с контекстом, а работа по сделке сохраняется в CRM.</p>
+      <div class="grid numbers" aria-label="Результаты mock A/B на вариант">
+        <div><strong>60 / 60</strong>верных решений на вариант в mock A/B</div>
+        <div><strong>100%</strong>полнота эскалаций в mock A/B</div>
+        <div><strong>0%</strong>галлюцинаций среди 24 mock-автоответов на вариант</div>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  <section id="value">
+    <h2>Первая линия и пресейл</h2>
+    <div class="grid">
+      <article class="card"><h3>B2B</h3><p>Покупатель получает условия тарифа или SLA прямо в чате со ссылкой на источник.</p></article>
+      <article class="card"><h3>SaaS</h3><p>Первая линия обрабатывает повторяющиеся вопросы по подключению и оплате. Жалобы направляются оператору.</p></article>
+      <article class="card"><h3>Интеграторы Bitrix24</h3><p>Открытые линии объединяют каналы, а таймлайн сделки сохраняет след обращения.</p></article>
+    </div>
+  </section>
+  <section id="flow">
+    <h2>От сообщения до действия</h2>
+    <ol class="pipeline">
+      <li><details name="pipeline" open><summary>Входящее сообщение OpenLines</summary><p>Событие ONIMBOTMESSAGEADD связывает обращение с чатом и, если есть привязка, со сделкой.</p></details></li>
+      <li><details name="pipeline"><summary>Sentiment / Escalation Router</summary><p>Жалоба, запрос оператора и другие триггеры ведут к эскалации до генерации.</p></details></li>
+      <li><details name="pipeline"><summary>Hybrid RAG · BM25 + Embeddings</summary><p>Поиск сочетает слова и смысл. Нулевой лексический матч или скор ниже 0,45 приводят к передаче оператору.</p></details></li>
+      <li><details name="pipeline"><summary>Grounding Guard</summary><p>Автоответ опирается на дословные цитаты. Неподтверждённые факты, числа и условия блокируют публикацию.</p></details></li>
+      <li><details name="pipeline"><summary>Bitrix24 Chat / Operator + CRM Timeline</summary><p>Журнал SQLite отмечает отправку, перевод и запись в CRM. При неизвестном исходе шаг остаётся в sending до сверки или ручной проверки.</p></details></li>
+    </ol>
+  </section>
+  <section id="verification">
+    <h2>Проверка A/B</h2>
+    <p class="muted">Два варианта прошли один размеченный синтетический набор. Задержка включает локальный журнал и измерена вне индексации и сети Bitrix24.</p>
+    <div class="scroll">
+      <table aria-label="Измерения mock-бенчмарка">
+        <thead><tr><th scope="col">Mock A/B</th><th scope="col">A · v1.0</th><th scope="col">B · v1.1</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Верные решения</th><td>60/60</td><td>60/60</td></tr>
+          <tr><th scope="row">Ожидаемые эскалации</th><td>36/36</td><td>36/36</td></tr>
+          <tr><th scope="row">Grounding</th><td>24/24</td><td>24/24</td></tr>
+          <tr><th scope="row">Галлюцинации</th><td>0/24</td><td>0/24</td></tr>
+          <tr><th scope="row">p50 / p95, мс</th><td>110,126 / 174,229</td><td>57,677 / 178,145</td></tr>
+          <tr><th scope="row">Средняя стоимость цикла</th><td>0 ₽</td><td>0 ₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted">Live preflight подтвердил наличие моделей в каталоге. Платный прогон ожидает тарифа эмбеддингов. На Bitrix24 проверены права методов CRM. Для сквозного теста нужны права Открытых линий и регистрация бота.</p>
+  </section>
+  <section id="roi">
+    <h2>Калькулятор ROI</h2>
+    <p class="muted">Введите параметры сценария. Доля закрытий применяется ко всем обращениям. Стоимость LLM считается по всем циклам, включая эскалации. Эксплуатационные расходы в сценарий не включены.</p>
+    <div class="roi">
+      <form id="calculator" class="card" aria-label="Параметры сценария">
+        <label>Обращений в месяц<input id="volume" type="number" min="0" step="1" required></label>
+        <label>Типовые обращения, закрытые автоответом, %<input id="deflection" type="number" min="0" max="100" step="any" required></label>
+        <label>Среднее время оператора, мин<input id="minutes" type="number" min="0" step="any" required></label>
+        <label>Стоимость часа оператора, ₽<input id="hourly" type="number" min="0" step="any" required></label>
+        <label>Средняя стоимость LLM-цикла, ₽<input id="cycle" type="number" min="0" step="any" required></label>
+        <label>Стоимость внедрения, ₽<input id="investment" type="number" min="0" step="any" required></label>
+      </form>
+      <div class="results" aria-live="polite">
+        <div class="card">Сэкономлено часов в месяц<output id="hours">—</output></div>
+        <div class="card">Затраты LLM в месяц<output id="llm">—</output></div>
+        <div class="card">Чистая экономия в месяц<output id="monthly">—</output></div>
+        <div class="card">Чистая экономия в год<output id="annual">—</output></div>
+        <div class="card">ROI относительно затрат LLM<output id="roi-rate">—</output></div>
+        <div class="card">Срок окупаемости<output id="payback">—</output></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">ai-solutions · Кейс №4</div></footer>
+<script>
+const byId = (id) => document.getElementById(id);
+const fields = ["volume", "deflection", "minutes", "hourly", "cycle", "investment"].map(byId);
+const outputs = ["hours", "llm", "monthly", "annual", "roi-rate", "payback"].map(byId);
+const number = new Intl.NumberFormat("ru-RU", {maximumFractionDigits: 2});
+const money = new Intl.NumberFormat("ru-RU", {style: "currency", currency: "RUB"});
+const percent = new Intl.NumberFormat("ru-RU", {style: "percent", maximumFractionDigits: 2});
+
+function update() {
+  let values = outputs.map(() => "—");
+  if (fields.every((input) => input.validity.valid && Number.isFinite(input.valueAsNumber))) {
+    const [volume, deflection, minutes, hourly, cycle, investment] = fields.map((input) => input.valueAsNumber);
+    const hours = volume * (deflection / 100) * (minutes / 60);
+    const llm = volume * cycle;
+    const monthly = hours * hourly - llm;
+    const annual = monthly * 12;
+    const months = investment / monthly;
+    const days = months * (365 / 12);
+    if ([hours, llm, monthly, annual].every(Number.isFinite)) {
+      values = [
+        number.format(hours), money.format(llm), money.format(monthly), money.format(annual),
+        llm > 0 && Number.isFinite(monthly / llm) ? percent.format(monthly / llm) : "—",
+        monthly <= 0 ? "Не окупается" : Number.isFinite(days) ?
+          `${number.format(days)} дн. / ${number.format(months)} мес.` : "—"
+      ];
+    }
+  }
+  outputs.forEach((output, index) => { output.value = values[index]; });
+}
+
+byId("calculator").addEventListener("input", update);
+update();
+</script>
+</body>
+</html>

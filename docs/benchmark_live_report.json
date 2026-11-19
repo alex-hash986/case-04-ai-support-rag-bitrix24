@@ -1,0 +1,34 @@
+{
+  "llm_ready": false,
+  "llm_catalog": "ok",
+  "models": {
+    "FAST": "listed",
+    "SMART": "listed",
+    "EMBEDDING": "listed"
+  },
+  "rub_per_million_token_rates": {
+    "llm_rub_per_million_input_tokens": "configured",
+    "llm_rub_per_million_output_tokens": "configured",
+    "embedding_rub_per_million_input_tokens": "missing"
+  },
+  "budget": {
+    "valid": true,
+    "cycle_rub": "1.00",
+    "session_rub": "5.00"
+  },
+  "bitrix_ready": false,
+  "bitrix_portal": "ok",
+  "bitrix_methods": {
+    "imbot.message.add": "unavailable",
+    "imopenlines.bot.session.operator": "unavailable",
+    "crm.timeline.comment.add": "available",
+    "imopenlines.session.history.get": "unavailable",
+    "crm.timeline.comment.list": "available"
+  },
+  "bitrix_openlines_credentials": {
+    "bitrix_bot_id": "missing",
+    "bitrix_client_id": "missing",
+    "bitrix_app_token": "missing"
+  },
+  "model_probes": "blocked"
+}

@@ -1,0 +1,1789 @@
+{
+  "mode": "mock",
+  "variants": {
+    "variant_a": {
+      "cases": 60,
+      "auto_replies": 24,
+      "action_accuracy": 1.0,
+      "escalation_recall": 1.0,
+      "grounding_pass_rate": 1.0,
+      "faithfulness": 1.0,
+      "hallucination_rate": 0.0,
+      "citation_precision": 1.0,
+      "latency_p50_ms": 110.126,
+      "latency_p95_ms": 174.229,
+      "avg_cost_rub": "0"
+    },
+    "variant_b": {
+      "cases": 60,
+      "auto_replies": 24,
+      "action_accuracy": 1.0,
+      "escalation_recall": 1.0,
+      "grounding_pass_rate": 1.0,
+      "faithfulness": 1.0,
+      "hallucination_rate": 0.0,
+      "citation_precision": 1.0,
+      "latency_p50_ms": 57.677,
+      "latency_p95_ms": 178.145,
+      "avg_cost_rub": "0"
+    }
+  },
+  "results": {
+    "variant_a": [
+      {
+        "case_id": "case-01",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 73.348,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-02",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 70.359,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-03",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 74.544,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-04",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 79.119,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-05",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 68.563,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-06",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 70.809,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-07",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 64.11,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-08",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 70.323,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-09",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 63.615,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-10",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 71.175,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-11",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 66.906,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-12",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 88.326,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-13",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 74.394,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-14",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 62.913,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-15",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 65.861,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-16",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 65.547,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-17",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "refunds_and_legal"
+        ],
+        "expected_doc_ids": [
+          "refunds_and_legal"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 78.513,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-18",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "refunds_and_legal"
+        ],
+        "expected_doc_ids": [
+          "refunds_and_legal"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 964.763,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-19",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 107.632,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-20",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 97.142,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-21",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 72.115,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-22",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 66.546,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-23",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 63.875,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-24",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 62.467,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-25",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 110.126,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-26",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 106.454,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-27",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 137.156,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-28",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 105.509,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-29",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 109.045,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-30",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 105.474,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-31",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 106.441,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-32",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 152.272,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-33",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 121.972,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-34",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 124.805,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-35",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 875.454,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-36",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 172.977,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-37",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 156.184,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-38",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 112.384,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-39",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 119.182,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-40",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 108.945,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-41",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 158.845,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-42",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 132.958,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-43",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 116.553,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-44",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 111.917,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-45",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 135.043,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-46",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 163.203,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-47",
+        "action": "escalate_to_operator",
+        "escalation_reason": "operator_requested",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "operator_requested",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 117.104,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-48",
+        "action": "escalate_to_operator",
+        "escalation_reason": "operator_requested",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "operator_requested",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 135.835,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-49",
+        "action": "escalate_to_operator",
+        "escalation_reason": "operator_requested",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "operator_requested",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 174.74,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-50",
+        "action": "escalate_to_operator",
+        "escalation_reason": "operator_requested",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "operator_requested",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 156.281,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-51",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 113.439,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-52",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 114.635,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-53",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 114.776,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-54",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 118.181,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-55",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 146.359,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-56",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 119.392,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-57",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 120.148,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-58",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 118.152,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-59",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 155.11,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-60",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 174.229,
+        "cost_rub": "0"
+      }
+    ],
+    "variant_b": [
+      {
+        "case_id": "case-01",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 97.966,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-02",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 38.544,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-03",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 35.25,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-04",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 37.896,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-05",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 40.174,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-06",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 37.339,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-07",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 42.129,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-08",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 46.735,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-09",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 38.309,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-10",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 35.618,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-11",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 35.785,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-12",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 36.341,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-13",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 36.269,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-14",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 40.686,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-15",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 48.046,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-16",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 51.576,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-17",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "refunds_and_legal"
+        ],
+        "expected_doc_ids": [
+          "refunds_and_legal"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 52.954,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-18",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "refunds_and_legal"
+        ],
+        "expected_doc_ids": [
+          "refunds_and_legal"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 1087.563,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-19",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 40.555,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-20",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 37.661,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-21",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 42.663,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-22",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "expected_doc_ids": [
+          "tariffs_and_billing"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 33.815,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-23",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "sla_and_support"
+        ],
+        "expected_doc_ids": [
+          "sla_and_support"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 37.709,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-24",
+        "action": "auto_reply",
+        "escalation_reason": null,
+        "expected_action": "auto_reply",
+        "expected_escalation_reason": null,
+        "doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "expected_doc_ids": [
+          "bitrix24_integration_faq"
+        ],
+        "grounding_pass": true,
+        "forbidden_claims_found": [],
+        "latency_ms": 40.78,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-25",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 66.013,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-26",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 58.9,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-27",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 56.933,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-28",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 61.875,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-29",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 64.264,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-30",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 56.146,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-31",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 62.675,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-32",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 59.201,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-33",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 61.934,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-34",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 66.689,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-35",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 60.002,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-36",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 57.677,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-37",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 96.975,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-38",
+        "action": "escalate_to_operator",
+        "escalation_reason": "low_retrieval_score",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "low_retrieval_score",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 74.784,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-39",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 67.808,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-40",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 72.083,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-41",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 251.665,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-42",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 87.373,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-43",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 77.649,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-44",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 229.467,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-45",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 178.145,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-46",
+        "action": "escalate_to_operator",
+        "escalation_reason": "complaint_or_refund",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "complaint_or_refund",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 130.544,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-47",
+        "action": "escalate_to_operator",
+        "escalation_reason": "operator_requested",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "operator_requested",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 70.687,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-48",
+        "action": "escalate_to_operator",
+        "escalation_reason": "operator_requested",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "operator_requested",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 64.086,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-49",
+        "action": "escalate_to_operator",
+        "escalation_reason": "operator_requested",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "operator_requested",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 56.817,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-50",
+        "action": "escalate_to_operator",
+        "escalation_reason": "operator_requested",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "operator_requested",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 57.438,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-51",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 59.067,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-52",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 57.592,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-53",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 57.221,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-54",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 67.93,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-55",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 63.376,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-56",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 63.305,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-57",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 63.54,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-58",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 57.3,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-59",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 62.001,
+        "cost_rub": "0"
+      },
+      {
+        "case_id": "case-60",
+        "action": "escalate_to_operator",
+        "escalation_reason": "insufficient_context",
+        "expected_action": "escalate_to_operator",
+        "expected_escalation_reason": "insufficient_context",
+        "doc_ids": [],
+        "expected_doc_ids": [],
+        "grounding_pass": null,
+        "forbidden_claims_found": [],
+        "latency_ms": 63.097,
+        "cost_rub": "0"
+      }
+    ]
+  }
+}

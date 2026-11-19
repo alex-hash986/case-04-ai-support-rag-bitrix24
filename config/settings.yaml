@@ -1,0 +1,11 @@
+api_port: 8014
+ui_port: 8504
+database_path: data/case04_support_rag.db
+knowledge_base_path: data/knowledge_base
+min_retrieval_score: 0.45
+max_cycle_cost_rub: "1.00"
+max_session_cost_rub: "5.00"
+bitrix_mode: mock
+baseline_manual_minutes: null
+support_variant: variant_a
+bitrix_operator_queue_id: 1
